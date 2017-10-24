@@ -1,3 +1,32 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+nav.navbar.navbar-inverse {
+  background-color: #000000;
+  min-height: 100px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+section.container-fluid {
+  height: -webkit-fill-available;
+  background-color: #161616;
+}
+
+.tres{
+  position: relative;
+  background-color: #000000;
+}
+
+.cent_vert {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-fluid.sections.tres {
+  background-color: #000000
+}
